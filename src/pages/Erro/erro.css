@@ -1,0 +1,23 @@
+.not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found h1{
+    font-size: 100px;
+}
+
+.not-found a{
+    text-decoration: none;
+    background-color: black;
+    color: rgb(184, 18, 18);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.not-found a:hover{
+    background-color: rgb(184, 18, 18);
+    color: black;
+}

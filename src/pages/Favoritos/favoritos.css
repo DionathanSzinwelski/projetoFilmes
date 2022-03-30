@@ -1,0 +1,44 @@
+
+#meus-filmes{
+    display: flex;
+    flex-direction: column;
+    width: 100% ;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    padding: 0;
+    list-style: none;
+    min-width: 600px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 10px;
+}
+
+span{
+    font-size: 23px;
+}
+
+button{
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(184, 18, 18);
+    padding: 7px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgb(184, 18, 18) ;
+    color: black;
+}
+
+ul li div a{
+    color: rgb(184, 18, 18);
+}
